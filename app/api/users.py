@@ -12,9 +12,9 @@ def create_new_user(user: UserCreate):
     return create_user(user)
 
 
-@router.get("/{user_id}", response_model=UserResponse)
-def get_existing_user(user_id: int):
-    user = get_user(user_id)
+@router.get("/{user_identification}", response_model=UserResponse)
+def get_existing_user(user_identification: int):
+    user = get_user(user_identification)
 
     if not user:
         raise HTTPException(
