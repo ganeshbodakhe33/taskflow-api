@@ -2,7 +2,6 @@
 
 TaskFlow API is a small REST API built with FastAPI for managing users and tasks.
 
-The project is intentionally simple and includes Markdown documentation that can be monitored by a Self-Healing Documentation system.
 
 ---
 
